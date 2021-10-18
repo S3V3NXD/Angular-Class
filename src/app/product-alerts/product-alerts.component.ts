@@ -12,4 +12,7 @@ export class ProductAlertsComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+  notify() {
+    alert('teste');
+  }
 }
